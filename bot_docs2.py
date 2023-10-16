@@ -2,7 +2,7 @@ import telebot
 from docxtpl import DocxTemplate
 from docx2pdf import convert
 
-doc = DocxTemplate('bots\official_file.docx')
+doc = DocxTemplate('bots\doc_bot.docx')
 bot = telebot.TeleBot('6413252125:AAEYB4Qw0GltfdKBGBfGhemN4WqRFqn_Qiw')
 
 @bot.message_handler(commands=['start'])
